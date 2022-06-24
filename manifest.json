@@ -1,0 +1,19 @@
+{
+    "name": "Jewlery",
+    "short_name": "JewleryShop",
+    "start_url": "/index.html",
+    "display": "Luxury",
+    "background_color": "#FFE9D2",
+    "theme_color": "#FFE1C4",
+    "orientation": "portrait-primary",
+    "icons": [
+
+        {
+            "src": "/Images/AheenLogo.png",
+            "type" : "Image/png",
+            "sizes" : "72x72"
+        }
+
+    ]
+
+}

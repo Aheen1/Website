@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="manifest" href="manifest.json">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+<script src="https://kit.fontawesome.com/fce4a8a3ae.js" crossorigin="anonymous"></script>
+<link rel="style" href="pageStyle.css" />
+<script src="page.js">
+</script>
+
+  <style>
+    body{
+      background-image: url('Images/hermes1.jpg');
+       background-repeat: no-repeat;
+       background-attachment: fixed; 
+       background-size: 100% 100%;
+   }
+   .header {
+  overflow: hidden;
+  background-image: url('Images/hermes1.jpg');
+  padding: 20px 10px;
+}
+.mySlides {display:none;}
+
+/*BACK TO TOP BUTTON*/
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 25px;
+  border: none;
+  outline: none;
+  background-color: rgb(243, 122, 42);
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+ </style>
+
+    </head>
+<body>
+  <div class="header">
+    <a href="#default" class="logo"></a>
+    <img src="Images/AheenLogo.png" height="200px" width="300px">
+  </div>
+
+<!-- Sidebar (hidden by default) -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()"
+  class="w3-bar-item w3-button">Close Menu</a>
+  <a href="#food" onclick="w3_close()" class="w3-bar-item w3-button">Products</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">About</a>
+  <a href="currency.html">Currency-Converter</a>
+
+</nav>
+
+<!-- Top menu -->
+<div class="w3-top">
+  <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+    <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+    <div class="w3-center w3-padding-16">HERMES</div>
+  </div>
+</div>
+  
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+
+    <div class="w3-quarter">
+      <img src="Images/25.png" alt="25" style="width:100%">
+      <h3>Ever Chanie D'ancre ring Medium Model</h3>
+      <p>Ring in rose gold</p>
+      <p>£1,540.00</p>
+      <button type="button"  onclick="location.href='https://www.hermes.com/uk/en/product/ever-chaine-d-ancre-ring-medium-model-H118640Bv00050/';" class="btn btn-primary">Buy<i class="fa-solid fa-sterling-sign"></i></button>    
+    </div>
+
+    <div class="w3-quarter">
+      <img src="Images/26.png" alt="26" style="width:100%">
+      <h3>Chanie D'ancre Enchainee Double bracelet</h3>
+      <p>Double bracelet in rose gold</p>
+      <p>£8,960.00</p>
+      <button type="button"  onclick="location.href='https://www.hermes.com/uk/en/product/chaine-d-ancre-enchainee-double-bracelet-H221405Bv00SH/';" class="btn btn-primary">Buy<i class="fa-solid fa-sterling-sign"></i></button>    
+    </div>
+
+    <div class="w3-quarter">
+      <img src="Images/27.png" alt="27" style="width:100%">
+      <h3>Collier De Chien Rock ring Large model</h3>
+      <p>Ring in rose gold</p>
+      <p>£5,170.00</p>
+      <button type="button"  onclick="location.href='https://www.hermes.com/uk/en/product/collier-de-chien-rock-ring-large-model-H108032Bv00046/';" class="btn btn-primary">Buy<i class="fa-solid fa-sterling-sign"></i></button>    
+    </div>
+
+    <div class="w3-quarter">
+      <img src="Images/28.png" alt="28" style="width:100%">
+      <h3>Amulettes Constance ring</h3>
+      <p>Ring in rose gold set with diamonds</p>
+      <p>£4,240.00</p>
+      <button type="button"  onclick="location.href='https://www.hermes.com/uk/en/product/amulettes-constance-ring-H221607Bv00053/';" class="btn btn-primary">Buy<i class="fa-solid fa-sterling-sign"></i></button>    
+    </div>
+  </div>
+  
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center">
+
+    <div class="w3-quarter">
+      <img src="Images/29.png" alt="29" style="width:100%">
+      <h3>Hermis Ex-Libris Pendany, Very small model</h3>
+      <p>Pendant in rose gold set with a diamond, toggle closure</p>
+      <p>£2,170.00</p>
+      <button type="button"  onclick="location.href='https://www.hermes.com/uk/en/product/hermes-ex-libris-pendant-very-small-model-H120345Bv00/';" class="btn btn-primary">Buy<i class="fa-solid fa-sterling-sign"></i></button>    
+    </div>
+
+    <div class="w3-quarter">
+      <img src="Images/30.png" alt="30" style="width:100%">
+      <h3>Niloticus Ombre Necklace. Large moddel</h3>
+      <p>Necklace in rose gold</p>
+      <p>£13,390.00</p>
+      <button type="button"  onclick="location.href='https://www.hermes.com/uk/en/product/niloticus-ombre-necklace-large-model-H216220Bv00ST/';" class="btn btn-primary">Buy<i class="fa-solid fa-sterling-sign"></i></button>    
+    </div>
+
+    <div class="w3-quarter">
+      <img src="Images/31.png" alt="31" style="width:100%">
+      <h3>Kelly Clochette Bracelet, Small model</h3>
+      <p>Chain bracelet in rose gold with Hermès snap closure</p>
+      <p>£2,510.00</p>
+      <button type="button"  onclick="location.href='https://www.hermes.com/uk/en/product/kelly-clochette-bracelet-small-model-H220467Bv00LG/';" class="btn btn-primary">Buy<i class="fa-solid fa-sterling-sign"></i></button>    
+    </div>
+
+    <div class="w3-quarter">
+      <img src="Images/32.png" alt="32" style="width:100%">
+      <h3>Kelly Clochette Bracelet,Small model</h3>
+      <p>Bracelet in rose gold</p>
+      <p>£37,400.00</p>
+      <button type="button"  onclick="location.href='https://www.hermes.com/uk/en/product/kelly-clochette-bracelet-small-model-H220469Bv00ST/';" class="btn btn-primary">Buy<i class="fa-solid fa-sterling-sign"></i></button>    
+    </div>
+
+  </div>
+
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+      <a href="page1.html" class="w3-bar-item w3-black w3-button">1</a>
+      <a href="page2.html" class="w3-bar-item w3-button w3-hover-black">2</a>
+      <a href="page3.html" class="w3-bar-item w3-button w3-hover-black">3</a>
+      <a href="page4.html" class="w3-bar-item w3-button w3-hover-black">4</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+    </div>
+  </div>
+  
+  <hr id="about">
+<!--Sliding image-->
+
+<h2 class="w3-center"><i>Gallery</i></h2>
+<div class="w3-content w3-display-container">
+  <img class="mySlides" src="Images/1001.jpg" style="width:100%">
+  <img class="mySlides" src="Images/1002.jpg" style="width:100%">
+  <img class="mySlides" src="Images/1003.jpg" style="width:100%">
+  <img class="mySlides" src="Images/1004.jpg" style="width:100%">
+  <img class="mySlides" src="Images/1005.jpg" style="width:100%">
+  <img class="mySlides" src="Images/1006.jpg" style="width:100%">
+  <img class="mySlides" src="Images/1007.jpg" style="width:100%">
+  <img class="mySlides" src="Images/1008.jpg" style="width:100%">
+  <img class="mySlides" src="Images/1009.jpg" style="width:100%">
+  <img class="mySlides" src="Images/1010.jpg" style="width:100%">
+  <img class="mySlides" src="Images/1011.jpg" style="width:100%">
+  <img class="mySlides" src="Images/1012.jpg" style="width:100%">
+  <img class="mySlides" src="Images/1013.jpg" style="width:100%">
+  <img class="mySlides" src="Images/1014.jpg" style="width:100%">
+  <img class="mySlides" src="Images/1015.jpg" style="width:100%">
+  <img class="mySlides" src="Images/1016.jpg" style="width:100%">
+  <img class="mySlides" src="Images/1017.jpg" style="width:100%">
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32 w3-center">  
+    <h3>About Hermes</h3><br>
+    <div class="container">
+      <img src="Images/Thierry Hermès.png" alt="Thierry" class="image" class="responsive" >
+      <div class="middle">
+        <div class="text">Thierry Hermès</div>
+      </div>
+    <div class="w3-padding-32">
+      <h4><b>HERMES!</b></h4>
+      <h6><i>Hermes has been unequivocally the first luxury house in the house. 
+        Crafting and mastering leather jewelry, watches, house objects, shoes, scarves or hats not to forget their equestrian savoir-faire, 
+        the House of Hermès is truly exceptional.</i></h6>
+      <p>Contemporary jewelry has never looked better than under the exquisite and careful guidance of Hermes Joaillerie, which gives it a certain cosmopolitan and spellbinding allure.
+         Enhanced by a number of aesthetical and design improvements, the pieces are able to achieve even greater heights of elegance keeping in mind the equestrian atmosphere
+          Hermès is so attached to.</p>
+          <p>Their collections stand among the most recognised and admired modern designs, attracting high-end clientèle with elegance and quality… 
+            fan of horses ! The wonderful style of the pieces complements perfectly the style of the modern, sophisticated woman – in search of 
+            freedom and self-expression. The level of expertise and craftsmanship that goes into the making of something so simple that makes
+             a statement through its strength of presence and simplicity of lines.</p>
+    </div>
+  </div>
+  <hr>
+  
+  <!-- Footer -->
+  <footer class="w3-row-padding w3-padding-32">
+    <div class="w3-third">
+      <h3><i>Services</i></h3>
+      <p><i>Customer Service</i></p>
+      <p><i>+420 777 095 949</i></p>
+      <p><i>Monday to Saturday: 9am - 6pm </i></p>
+      <p><i>Email-Us</i></p>
+      <p><i>AheenJewllery@Outlook.com</i></p>
+    </div>
+  
+    <div class="w3-third">
+      <h3>Currency-Converter</h3>
+      <div>
+        <a href="currency.html">Currency-Converter</a>
+
+      </div>
+          <div class="button">
+            <div class="vertical-center">
+              <p id="button"></p>
+                <button
+                  onclick="location.href='https://www.google.com';"
+                  class="btn btn-info navbar-btn"
+                >
+                  Google
+                </button>
+      
+    </div>
+  </footer>
+
+<!-- End page content -->
+  </div>
+<!--BACK TO TOP BUTTON*-->
+<button onclick="topFunction()" id="myBtn" title="Go to top">↑</button>
+
+    <script>
+      //Get the button
+      var mybutton = document.getElementById("myBtn");
+
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function () {
+        scrollFunction();
+      };
+
+      function scrollFunction() {
+        if (
+          document.body.scrollTop > 20 ||
+          document.documentElement.scrollTop > 20
+        ) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
